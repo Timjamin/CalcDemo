@@ -32,6 +32,8 @@ var countingAlert = async (message) => {
   } else if (buttonCount === 30) {
     return message + ", you got problems, redirecting you to a mental health website. this is all I can do.";
     window.open("https://www.mentalhealth.gov/get-help/immediate-help", "_blank");
+  } else if (buttonCount === 33) {
+    window.close();
   } else {
     return message;
   }
